@@ -19,12 +19,12 @@ const About: React.FC = () => {
 
             <div className="mt-8 flex gap-4">
               <div className="flex flex-col">
-                <span className="text-3xl font-bold text-gray-900 text-white">50+</span>
+                <span className="text-3xl font-bold text-white">50+</span>
                 <span className="text-sm text-gray-500">Projects Launched</span>
               </div>
               <div className="w-px bg-gray-700"></div>
               <div className="flex flex-col">
-                <span className="text-3xl font-bold text-gray-900 text-white">100%</span>
+                <span className="text-3xl font-bold text-white">100%</span>
                 <span className="text-sm text-gray-500">On-Time Delivery</span>
               </div>
             </div>
