@@ -107,20 +107,20 @@ const Navbar: React.FC = () => {
         </div>
 
         {/* Mobile Menu Panel */}
-        <div className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg`}>
+        <div className={`${isMobileMenuOpen ? 'block' : 'hidden'} md:hidden bg-slate-900 border-b border-slate-800 absolute w-full shadow-lg`}>
           <div className="px-4 pt-2 pb-6 space-y-2">
-            <a href="#services" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary-600 hover:bg-gray-50">Services</a>
-            <a href="#portfolio" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary-600 hover:bg-gray-50">Portfolio</a>
-            <a href="#about" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary-600 hover:bg-gray-50">About</a>
+            <a href="#services" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800">Services</a>
+            <a href="#portfolio" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800">Portfolio</a>
+            <a href="#about" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800">About</a>
             
             <button 
               onClick={handleAuthClick}
-              className="w-full text-left block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-primary-600 hover:bg-gray-50"
+              className="w-full text-left block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800"
             >
               {user ? 'My Client Portal' : 'Client Login'}
             </button>
 
-            <a href="#contact" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 mt-4 text-center rounded-md text-base font-medium bg-primary-600 text-white hover:bg-primary-700">Book a Call</a>
+            <a href="#contact" onClick={() => setIsMobileMenuOpen(false)} className="block px-3 py-2 mt-4 text-center rounded-md text-base font-medium bg-primary-600 text-white hover:bg-primary-500">Book a Call</a>
           </div>
         </div>
       </nav>
